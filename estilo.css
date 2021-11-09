@@ -1,0 +1,140 @@
+/* color pallete:
+334257
+476072
+548CA8
+EEEEEE */
+
+*{
+    font-family: 'Sora', sans-serif;
+}
+
+body{
+    background:#EEEEEE
+}
+.nav{
+    background:#EEEEEE;
+    height:60px;
+    display:flex;
+    align-items:center;
+    font-style:uppercase;
+    position:relative;
+    color:#000000;
+    box-shadow: 0px 0px 15px 0px #000000;
+    border-radius: 2px
+}
+
+.nav img{
+    height:60px;
+    width:60px;
+    margin-left:10px;
+}
+
+.nav h1{
+    letter-spacing:2px;
+    position:relative;
+    left:20px;
+}
+
+.nav .menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding:30px;
+    position:relative;
+    left: 1000px;
+    letter-spacing:2px;
+    color:#919197;
+    font-weight:800;
+}
+
+.presentation{
+    background-image: url(images/tallerfondo.jpeg);
+    position:relative;
+    height: 800px;
+    border-radius: 0px 0px 15px 15px
+}
+.presentation h1{
+    position:absolute;
+    top:50px;
+    left:40px;
+    color:#EEEEEE;
+}
+.presentation p{
+    position: relative;
+    top: 140px;
+    left: 40px;
+    color:#EEEEEE;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+form{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    margin:100px auto;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 2px
+}
+form h1{
+    position:relative;
+    bottom: 10px;
+    margin: 10px auto;
+    background-color:#476072 ;
+    color:#EEEEEE;
+    width: 940px;
+    height:70px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+#contenedor__form_email_nombre, #contenedor__form_email_mail, #contenedor__form_email_auto, #contenedor__form_email_km, #contenedor__form_email_fecha, #submit {
+    margin: 20px;
+    border-radius:5px;
+    height: 40px;
+    padding: 10px;
+}
+
+label {
+    margin-left:25px;
+    font-size:19px;
+    font-weight:bold
+}
+
+input[type="date"]{
+    background-color: #476072;
+    padding: 15px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    width:500px;
+    left: 470px;
+    top:40px;
+
+    color: #EEEEEE;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+::-webkit-calendar-picker-indicator{
+    background-color:#EEEEEE;
+    padding: 5px;
+    cursor: pointer;
+    border: 3px;
+}
+
+input[type="submit"]{
+    font-size:19px ;
+    font-weight:900;
+}
+
+footer{
+    margin-top: 20px;
+    background-color:black;
+    color:#fff;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    top:38px;
+    font-size: 10px;
+    font-style: small-caps;
+}
